@@ -3,16 +3,85 @@ layout: home
 title: SurveyFi – WiFi Heatmapping
 ---
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SurveyFi – WiFi Heatmapping in CB Postcodes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 2rem auto;
+      max-width: 800px;
+      padding: 0 1rem;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #0057B8;
+    }
+    .button {
+      display: inline-block;
+      background: #0057B8;
+      color: white;
+      padding: 0.75rem 1.25rem;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 1rem;
+    }
+    .calendly-inline-widget {
+      margin-top: 2rem;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
 <h1>📡 SurveyFi</h1>
 <p><strong>WiFi Heatmapping Specialists</strong><br>
-Serving homes and businesses across all CB postcodes.</p>
+Helping homes and businesses across <strong>all CB postcodes</strong> improve wireless coverage, eliminate dead zones, and optimise performance.</p>
 
 <hr>
 
-<h2>📅 Book a Survey Now</h2>
-<p>Pick a time that works for you:</p>
+<h2>🔍 What is WiFi Heatmapping?</h2>
+<p>WiFi heatmapping is a visual survey that shows how strong (or weak) your wireless signal is throughout a space. We use pro tools to find:</p>
+<ul>
+  <li>🔴 Dead zones and weak spots</li>
+  <li>🟢 Areas with strong coverage</li>
+  <li>⚠️ Interference or overlapping access points</li>
+</ul>
+<p>With this data, we help you optimise your network layout for best performance.</p>
+
+<hr>
+
+<h2>✅ What We Offer</h2>
+<ul>
+  <li>On-site WiFi heatmapping</li>
+  <li>Dead zone detection & signal analysis</li>
+  <li>Network troubleshooting</li>
+  <li>AP placement guidance & post-install verification</li>
+</ul>
+
+<hr>
+
+<h2>📅 Book a Survey</h2>
+<p>Choose a time that works for you:</p>
 
 <!-- Calendly inline widget begin -->
 <div class="calendly-inline-widget" data-url="https://calendly.com/surveyfi-info/2hr-on-site-survey" style="min-width:320px;height:630px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 <!-- Calendly inline widget end -->
+
+<p>📩 Prefer to reach out directly? Email us at <a href="mailto:info@surveyfi.co.uk">info@surveyfi.co.uk</a></p>
+
+<footer>
+  <hr>
+  <p>© {{ site.time | date: '%Y' }} SurveyFi – WiFi Heatmapping Experts</p>
+</footer>
+
+</body>
+</html>
